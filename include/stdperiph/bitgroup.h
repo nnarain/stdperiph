@@ -3,7 +3,7 @@
 #define BITGROUP_H
 
 #include "stdperiph/io_port.h"
-#include "utils/bitutils.h"
+#include "stdperiph/bitutils.h"
 
 #include <stdint.h>
 
