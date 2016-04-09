@@ -13,5 +13,6 @@
 #include "stdperiph/gpio_port.h"
 #include "stdperiph/gpio_pin_ref.h"
 #include "stdperiph/bitgroup.h"
+#include "stdperiph/combined_register.h"
 
 #endif
