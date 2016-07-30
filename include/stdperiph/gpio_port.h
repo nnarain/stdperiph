@@ -5,7 +5,7 @@
 #include "stdperiph/io_port.h"
 #include "stdperiph/bitref.h"
 
-#define GPIO(PERIPH, DDR, NAME) typedef stdperiph::Gpio<(uint16_t)&PERIPH, (uint16_t)&DDR> NAME
+#define GPIO(PERIPH, DDR, NAME) typedef stdperiph::Gpio<PERIPH, DDR> NAME
 
 namespace stdperiph
 {
